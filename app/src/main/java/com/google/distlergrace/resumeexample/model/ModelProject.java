@@ -6,7 +6,7 @@ public class ModelProject
     public String projectType;
     public String projectDescription;
     public String projectImagePath;
-    public String projectLandinPage;
+    public String projectLandingPage;
 
     public String getProjectName()
     {
@@ -44,12 +44,12 @@ public class ModelProject
         this.projectImagePath = projectImagePath;
     }
 
-    public String getProjectLandinPage()
+    public String getProjectLandingPage()
     {
-        return projectLandinPage;
+        return projectLandingPage;
     }
-    public void setProjectLandinPage(String projectLandinPage)
+    public void setProjectLandingPage(String projectLandingPage)
     {
-        this.projectLandinPage = projectLandinPage;
+        this.projectLandingPage = projectLandingPage;
     }
 }
